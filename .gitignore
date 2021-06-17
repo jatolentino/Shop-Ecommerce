@@ -1,0 +1,9 @@
+node_modules
+.eslintcache
+package-lock.json
+yarn.lock
+client/.eslintcache
+client/package-lock.json
+client/yarn.lock
+startp-react/.DS_Store
+.env

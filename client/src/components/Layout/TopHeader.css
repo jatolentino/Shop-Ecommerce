@@ -1,0 +1,19 @@
+.top-header-area {
+  background-color: #222F3F;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.top-header-area .container .top-header-content span {
+  font-size: 16px;
+  color: #fff;
+  font-weight: 400;
+}
+
+.top-header-area .logout-btn {
+  border: none;
+  background: #222F3F;
+  color: #fff;
+  cursor: pointer;
+}
+/*# sourceMappingURL=TopHeader.css.map */

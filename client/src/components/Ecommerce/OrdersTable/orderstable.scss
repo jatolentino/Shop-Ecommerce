@@ -1,0 +1,71 @@
+.orderstable {
+  .cellWrapper {
+    display: flex;
+    align-items: center;
+
+    .image {
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      margin-right: 10px;
+      object-fit: cover;
+    }
+  }
+
+  .status {
+    padding: 3px;
+    border-radius: 12px;
+
+    &.Approved {
+      color: green;
+      background-color: rgba(0, 128, 0, 0.151);
+    }
+    &.Pending {
+      color: goldenrod;
+      background-color: rgba(189, 189, 3, 0.103);
+    }
+
+    &.ToShip{
+      font-size: 13px;
+      display: inline-block;
+      width: 100px;
+      text-align: center;
+      background-color: #FBB007;
+      color: white;
+    }
+
+    &.Shipped{
+      font-size: 13px;
+      display: inline-block;
+      width: 100px;
+      text-align: center;
+      background-color: #37B24C;
+      color: white;
+    }
+
+  }
+
+  .action{
+    padding: 5px;
+    border-radius: 5px;
+    &.ToShip{
+      color: white;
+      background-color: #4B5563;
+      border: 2px solid #4B5563;
+      width: 100px;
+      &:hover{
+        background-color: #222F3F;
+      }
+    }
+
+    &.Shipped{
+      color: #BCBDBF;
+      background-color: #EDECEC;
+      border: 1px solid #BCBDBF;
+      cursor: default;
+      width: 100px;
+    }
+  }
+
+
+}

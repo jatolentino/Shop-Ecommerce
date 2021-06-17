@@ -1,0 +1,55 @@
+.product-quantities .input-counter {
+  max-width: 130px;
+  min-width: 130px;
+  text-align: center;
+  display: inline-block;
+  position: relative;
+}
+
+.product-quantities .input-counter input {
+  height: 25px;
+  color: #292929;
+  outline: 0;
+  border: none;
+  background-color: #f8f8f8;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.product-quantities .input-counter .plus-btn,
+.product-quantities .input-counter .minus-btn {
+  cursor: pointer;
+}
+
+.product-add-to-cart {
+  margin-top: 20px;
+}
+
+.product-add-to-cart .default-btn {
+  border: none;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  overflow: hidden;
+  z-index: 1;
+  background-color: #222F3F;
+  border: 1px solid #222F3F;
+  color: #fff;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  opacity: 1;
+  font-weight: 500;
+  padding: 10px 30px;
+  cursor: pointer;
+}
+
+.product_modal {
+  width: 80vw;
+  max-width: 80vw;
+}
+
+.price {
+  margin-bottom: 15px;
+}
+/*# sourceMappingURL=QuickView.css.map */

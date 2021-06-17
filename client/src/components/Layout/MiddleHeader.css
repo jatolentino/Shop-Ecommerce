@@ -1,0 +1,18 @@
+.middle-header-area form .row .select-column .form-group select {
+  background-color: #ffffff;
+  color: black;
+  height: 50px;
+}
+
+.middle-header-area form .row .select-column .form-group select option {
+  background: #fff;
+  color: #000000;
+}
+/*# sourceMappingURL=MiddleHeader.css.map */
+
+.middle-header-area .logout-btn {
+  border: none;
+  background: #131921;
+  color: #fff;
+  cursor: pointer;
+}

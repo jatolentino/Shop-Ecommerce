@@ -1,0 +1,39 @@
+.owl-nav .owl-prev,
+.owl-nav .owl-next {
+  visibility: hidden;
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  margin: 0;
+  outline: 0;
+  width: 45px;
+  height: 45px;
+  line-height: 52px;
+  background-color: #222F3F !important;
+  border: 1px solid #222F3F !important;
+  color: #ffffff !important;
+  border-radius: 50% !important;
+}
+
+.owl-nav .owl-next {
+  left: auto;
+  right: 10px;
+  color: #fff
+}
+
+.owl-theme:hover .owl-nav .owl-prev {
+  visibility: visible;
+  -webkit-transform: translateX(50%);
+          transform: translateX(50%);
+          color: #fff
+}
+
+.owl-theme:hover .owl-nav .owl-next {
+  visibility: visible;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+          color: #fff
+}
+/*# sourceMappingURL=Home.css.map */

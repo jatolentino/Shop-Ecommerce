@@ -1,0 +1,92 @@
+@font-face{
+    font-family:flaticon;
+    src:url(../fonts/Flaticon.eot);
+    src:url(../fonts/Flaticon.eot?#iefix) format("embedded-opentype"),url(../fonts/Flaticon.woff2) format("woff2"),url(../fonts/Flaticon.woff) format("woff"),url(../fonts/Flaticon.ttf) format("truetype"),url(../fonts/Flaticon.svg#Flaticon) format("svg");
+    font-weight:400;
+    font-style:normal
+}
+@media screen and (-webkit-min-device-pixel-ratio:0){
+    @font-face{
+        font-family:flaticon;
+        src:url(../fonts/Flaticon.svg#Flaticon) format("svg")
+    }
+}
+[class*=" flaticon-"]:after,[class*=" flaticon-"]:before,[class^=flaticon-]:after,[class^=flaticon-]:before{
+    font-family:Flaticon;
+    font-style:normal
+}
+.flaticon-trimmer:before{
+    content:"\f100"
+}
+.flaticon-free-shipping:before{
+    content:"\f101"
+}
+.flaticon-support:before{
+    content:"\f102"
+}
+.flaticon-security:before{
+    content:"\f103"
+}
+.flaticon-return:before{
+    content:"\f104"
+}
+.flaticon-quote:before{
+    content:"\f105"
+}
+.flaticon-desktop-computer:before{
+    content:"\f106"
+}
+.flaticon-stereo:before{
+    content:"\f107"
+}
+.flaticon-laptop:before{
+    content:"\f108"
+}
+.flaticon-tv-box:before{
+    content:"\f109"
+}
+.flaticon-smartphone:before{
+    content:"\f10a"
+}
+.flaticon-headphones:before{
+    content:"\f10b"
+}
+.flaticon-battery-charge:before{
+    content:"\f10c"
+}
+.flaticon-smart-watch:before{
+    content:"\f10d"
+}
+.flaticon-camera:before{
+    content:"\f10e"
+}
+.flaticon-listing-option:before{
+    content:"\f10f"
+}
+.flaticon-show-apps-button:before{
+    content:"\f110"
+}
+.flaticon-play-button:before{
+    content:"\f111"
+}
+.flaticon-left-arrow:before{
+    content:"\f112"
+}
+.flaticon-right-arrow:before{
+    content:"\f113"
+}
+.flaticon-heart:before{
+    content:"\f114"
+}
+.flaticon-shopping-cart:before{
+    content:"\f115"
+}
+.flaticon-view:before{
+    content:"\f116"
+}
+.flaticon-check:before{
+    content:"\f117"
+}
+.flaticon-add-cart:before{
+    content:"\f118"
+}
