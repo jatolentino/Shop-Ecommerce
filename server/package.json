@@ -1,10 +1,11 @@
 {
   "name": "shop",
-  "version": "1.1.0",
-  "description": "MERN - eCommerce",
+  "version": "2.3.7",
+  "description": "SHOP- Ecommerce",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
+	"start": "node index.js",
     "server": "nodemon index.js"
   },
   "dependencies": {

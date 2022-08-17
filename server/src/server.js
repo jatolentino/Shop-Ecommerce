@@ -3,11 +3,10 @@ const bodyParser = require("body-parser");
 const path = require('path');
 const fileUpload = require("express-fileupload");
 
-const db = require("./src/config/db");
-const productRoutes = require("./src/routings/product");
-const userRoutes = require("./src/routings/user");
-const orderRoutes = require("./src/routings/order");
-
+const db = require("./config/db");
+const productRoutes = require("./routings/product");
+const userRoutes = require("./routings/user");
+const orderRoutes = require("./routings/order");
 
 const production = process.env.NODE_ENV === "production";
 
@@ -15,7 +14,7 @@ require("dotenv").config();
 
 const app = express();
 
-
+production && app.use(express.static(path.join(__dirname, "../../client/build")));
 
 app.use(bodyParser.json());
 app.use(
@@ -31,7 +30,10 @@ db.makeDb();
 app.use("/products", productRoutes);
 app.use("/user", userRoutes);
 app.use("/order", orderRoutes);
-
-
+production && (
+  app.get("/*", (req, res) => {
+    res.sendFile(path.join(__dirname, "../../client/build", "index.html"));
+  })
+)
 
 app.listen(process.env.PORT || 5000);
