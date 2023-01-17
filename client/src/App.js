@@ -56,7 +56,6 @@ import CartContext from "./contexts/cart-context";
 import MiddleHeader from "./components/Layout/MiddleHeader";
 import Navbar from "./components/Layout/Navbar";
 
-
 import { useContext } from "react";
 import { DarkModeContext } from "./contexts/darkModeContext";
 import ShowNavbar from "./components/ShowNavbar/ShowNavbar";
