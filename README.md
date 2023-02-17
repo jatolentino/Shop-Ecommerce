@@ -1,13 +1,13 @@
 <div align="center" >
 
 
-<h7 align="center" style="font-size: 10px">
+<font size="1" align="center" >
 
 [<img src="./logo.svg" width="100" />](https://shop.josetolentino.site/) </br>
 [<img src="./shop-font.svg" width="83.84px"/>](https://shop.josetolentino.site/) </br>
 [https://shop.josetolentino.site/](https://shop.josetolentino.site/) </br>
 -
-</h7>
+</font>
 
 <h3>
 For Vendors & Customers<br>
