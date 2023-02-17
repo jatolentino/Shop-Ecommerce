@@ -1,20 +1,21 @@
 <div align="center" >
 
 
-<font size="1" align="center" >
+<p  align="center" >
 
 [<img src="./logo.svg" width="100" />](https://shop.josetolentino.site/) </br>
 [<img src="./shop-font.svg" width="83.84px"/>](https://shop.josetolentino.site/) </br>
-[https://shop.josetolentino.site/](https://shop.josetolentino.site/) </br>
--
-</font>
+https://shop.josetolentino.site/
+<hr  style="height: 1px"/>
+</p>
+
 
 <h3>
 For Vendors & Customers<br>
 Vendors/Admin Dashboard is available<br>
 Comes with a mobile app compatible with Android & iOS devices
 </h3>
-____________________________________
+
 
 
 
