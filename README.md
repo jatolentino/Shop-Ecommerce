@@ -6,7 +6,7 @@
 [<img src="./logo.svg" width="100" />](https://shop.josetolentino.site/) </br>
 [<img src="./shop-font.svg" width="83.84px"/>](https://shop.josetolentino.site/) </br>
 https://shop.josetolentino.site/
-<hr  style="height: 1px"/>
+<hr  style="height: 10px"/>
 </p>
 
 
