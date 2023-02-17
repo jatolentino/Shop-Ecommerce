@@ -4,11 +4,14 @@
 <p align="center">
 
 [<img src="./logo.svg" width="100" />](https://shop.josetolentino.site/) </br>
-[<img src="./shop-font.svg" width="83.84px"/>](https://shop.josetolentino.site/)</br>
+[<img src="./shop-font.svg" width="83.84px"/>](https://shop.josetolentino.site/)
+<h6>
+
+[https://shop.josetolentino.site/](https://shop.josetolentino.site/)
+</h6>
 -
+
 </p>
-
-
 <h3>
 For Vendors & Customers<br>
 Vendors/Admin Dashboard is available<br>
