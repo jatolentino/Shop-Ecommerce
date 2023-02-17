@@ -1,12 +1,11 @@
 <div align="center" >
 
 
-<p  align="center" >
+<p align="center">
 
 [<img src="./logo.svg" width="100" />](https://shop.josetolentino.site/) </br>
-[<img src="./shop-font.svg" width="83.84px"/>](https://shop.josetolentino.site/) </br>
-https://shop.josetolentino.site/
-<hr  style="height: 10px"/>
+[<img src="./shop-font.svg" width="83.84px"/>](https://shop.josetolentino.site/)</br>
+-
 </p>
 
 
@@ -15,7 +14,6 @@ For Vendors & Customers<br>
 Vendors/Admin Dashboard is available<br>
 Comes with a mobile app compatible with Android & iOS devices
 </h3>
-
 
 
 
