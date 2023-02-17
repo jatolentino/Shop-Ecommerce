@@ -32,6 +32,4 @@ app.use("/products", productRoutes);
 app.use("/user", userRoutes);
 app.use("/order", orderRoutes);
 
-
-
 app.listen(process.env.PORT || 5000);
