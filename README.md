@@ -17,6 +17,7 @@ Comes with a mobile app compatible with Android & iOS devices
 
 
 
+
 <p align="center">
 <img src="https://img.shields.io/badge/React-61DAFB.svg?style=flat-square&logo=React&logoColor=black" alt="React" />
 <img src="https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=flat-square&logo=JavaScript&logoColor=black" alt="JavaScript" />
