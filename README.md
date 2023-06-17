@@ -1,10 +1,10 @@
 <div align="center" >
 
-<h1 align="center">
+
 
 [<img src="https://raw.githubusercontent.com/jatolentino/Shop-Ecommerce/main/logo.svg" width="100" />](https://shop.josetolentino.site/) </br>
-[<img src="https://svgshare.com/i/zE7.svg" width="83.84"/>](https://shop.josetolentino.site/)
-</h1>
+[<img src="https://svgshare.com/i/zE7.svg" width="83.84px" height="43px"/>](https://shop.josetolentino.site/)
+-
 <h3>
 For Vendors & Customers<br>
 Vendors/Admin Dashboard is available<br>
