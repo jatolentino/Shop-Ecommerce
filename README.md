@@ -49,7 +49,7 @@ Comes with a mobile app compatible with Android & iOS devices
 ![GitHub language count](https://img.shields.io/github/languages/count/jatolentino/Shop-Ecommerce?color=success&logo=CodersRank&logoColor=%23FFFFFF)
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 ![rating](https://img.shields.io/badge/rating-★★★★★-yellow)
-![uptime](https://img.shields.io/badge/uptime-99.99%25-green) \
+![uptime](https://img.shields.io/badge/uptime-99.99%25-green)
 <img src="https://img.shields.io/github/license/jatolentino/Shop-Ecommerce?style=flat-square&color=5D6D7E" alt="GitHub license" />
 <img src="https://img.shields.io/github/last-commit/jatolentino/Shop-Ecommerce?style=flat-square&color=5D6D7E" alt="git-last-commit" />
 <img src="https://img.shields.io/github/commit-activity/m/jatolentino/Shop-Ecommerce?style=flat-square&color=5D6D7E" alt="GitHub commit activity" />
@@ -128,39 +128,544 @@ E-commerce software that levarages the MERN stack. The live website is available
 ## 📂 Repository Structure
 
 ```sh
-└── Shop-Ecommerce/
-    ├── client/
-    │   ├── package.json
-    │   ├── public/
-    │   │   ├── index.html
-    │   │   ├── manifest.json
-    │   │   └── robots.txt
-    │   └── src/
-    │       ├── App.js
-    │       ├── App.test.js
-    │       ├── components/
-    │       ├── contexts/
-    │       ├── datatablesource.js
-    │       ├── formSource.js
-    │       ├── index.css
-    │       ├── index.js
-    │       ├── index.test.css
-    │       ├── pages/
-    │       ├── redux/
-    │       └── setupTests.js
-    ├── server/
-    │   ├── index.js
-    │   ├── package.json
-    │   ├── src/
-    │   │   ├── config/
-    │   │   ├── controllers/
-    │   │   ├── helpers/
-    │   │   ├── middlewares/
-    │   │   ├── models/
-    │   │   ├── routings/
-    │   │   └── utils/
-    │   └── vercel.json
-    └── vercel.json
+└──Shop-Ecommerce
+	├── client
+	│   ├── package.json
+	│   ├── public
+	│   │   ├── favicon.ico
+	│   │   ├── favicon.png
+	│   │   ├── favicon.svg
+	│   │   ├── index.html
+	│   │   ├── logo192.png
+	│   │   ├── logo512.png
+	│   │   ├── manifest.json
+	│   │   └── robots.txt
+	│   └── src
+	│       ├── App.js
+	│       ├── App.test.js
+	│       ├── assets
+	│       │   ├── css
+	│       │   │   ├── bootstrap.min.css
+	│       │   │   ├── boxicon.min.css
+	│       │   │   ├── dark
+	│       │   │   │   ├── dark.css
+	│       │   │   │   └── dark.scss
+	│       │   │   ├── flaticon.min.css
+	│       │   │   ├── responsive.min.css
+	│       │   │   └── terms.css
+	│       │   ├── fonts
+	│       │   │   ├── boxicons.eot
+	│       │   │   ├── boxicons.svg
+	│       │   │   ├── boxicons.ttf
+	│       │   │   ├── boxicons.woff
+	│       │   │   ├── boxicons.woff2
+	│       │   │   ├── Flaticon.eot
+	│       │   │   ├── Flaticon.svg
+	│       │   │   ├── Flaticon.ttf
+	│       │   │   ├── Flaticon.woff
+	│       │   │   └── Flaticon.woff2
+	│       │   ├── img
+	│       │   │   ├── 404.png
+	│       │   │   ├── arab.png
+	│       │   │   ├── arrivalsproducts
+	│       │   │   │   ├── arrivalsproducts1.jpg
+	│       │   │   │   ├── arrivalsproducts2.jpg
+	│       │   │   │   ├── arrivalsproducts3.jpg
+	│       │   │   │   └── arrivalsproducts4.jpg
+	│       │   │   ├── bestsellers-products
+	│       │   │   │   ├── bestsellers-products-1.jpg
+	│       │   │   │   ├── bestsellers-products-2.jpg
+	│       │   │   │   ├── bestsellers-products-3.jpg
+	│       │   │   │   ├── bestsellers-products-4.jpg
+	│       │   │   │   ├── bestsellers-products-5.jpg
+	│       │   │   │   ├── bestsellers-products-6.jpg
+	│       │   │   │   ├── bestsellers-products-7.jpg
+	│       │   │   │   └── bestsellers-products-8.jpg
+	│       │   │   ├── blog
+	│       │   │   │   ├── blog-10.jpg
+	│       │   │   │   ├── blog-11.jpg
+	│       │   │   │   ├── blog-12.jpg
+	│       │   │   │   ├── blog-1.jpg
+	│       │   │   │   ├── blog-2.jpg
+	│       │   │   │   ├── blog-3.jpg
+	│       │   │   │   ├── blog-4.jpg
+	│       │   │   │   ├── blog-5.jpg
+	│       │   │   │   ├── blog-6.jpg
+	│       │   │   │   ├── blog-7.jpg
+	│       │   │   │   ├── blog-8.jpg
+	│       │   │   │   └── blog-9.jpg
+	│       │   │   ├── blog-10.jpg
+	│       │   │   ├── blog-details.jpg
+	│       │   │   ├── card-background
+	│       │   │   │   ├── 10.jpeg
+	│       │   │   │   ├── 11.jpeg
+	│       │   │   │   ├── 12.jpeg
+	│       │   │   │   ├── 13.jpeg
+	│       │   │   │   ├── 14.jpeg
+	│       │   │   │   ├── 15.jpeg
+	│       │   │   │   ├── 16.jpeg
+	│       │   │   │   ├── 17.jpeg
+	│       │   │   │   ├── 18.jpeg
+	│       │   │   │   ├── 19.jpeg
+	│       │   │   │   ├── 1.jpeg
+	│       │   │   │   ├── 20.jpeg
+	│       │   │   │   ├── 21.jpeg
+	│       │   │   │   ├── 22.jpeg
+	│       │   │   │   ├── 23.jpeg
+	│       │   │   │   ├── 24.jpeg
+	│       │   │   │   ├── 25.jpeg
+	│       │   │   │   ├── 2.jpeg
+	│       │   │   │   ├── 3.jpeg
+	│       │   │   │   ├── 4.jpeg
+	│       │   │   │   ├── 5.jpeg
+	│       │   │   │   ├── 6.jpeg
+	│       │   │   │   ├── 7.jpeg
+	│       │   │   │   ├── 8.jpeg
+	│       │   │   │   └── 9.jpeg
+	│       │   │   ├── card-type
+	│       │   │   │   ├── amex.png
+	│       │   │   │   ├── diners.png
+	│       │   │   │   ├── discover.png
+	│       │   │   │   ├── mastercard.png
+	│       │   │   │   ├── troy.png
+	│       │   │   │   ├── unionpay.png
+	│       │   │   │   └── visa.png
+	│       │   │   ├── cart
+	│       │   │   │   ├── cart-1.png
+	│       │   │   │   ├── cart-2.png
+	│       │   │   │   ├── cart-3.png
+	│       │   │   │   ├── cart-4.png
+	│       │   │   │   └── cart-5.png
+	│       │   │   ├── catavatar.jpg
+	│       │   │   ├── china.png
+	│       │   │   ├── chip.png
+	│       │   │   ├── collection
+	│       │   │   │   ├── collection-1.png
+	│       │   │   │   ├── collection-2.png
+	│       │   │   │   ├── lights.png
+	│       │   │   │   └── micro.png
+	│       │   │   ├── english.png
+	│       │   │   ├── featured
+	│       │   │   │   ├── featured-1.jpg
+	│       │   │   │   ├── featured-2.jpg
+	│       │   │   │   ├── featured-3.jpg
+	│       │   │   │   ├── featured-4.jpg
+	│       │   │   │   └── featured-5.jpg
+	│       │   │   ├── germany.png
+	│       │   │   ├── hot-products
+	│       │   │   │   ├── hot-products-1.jpg
+	│       │   │   │   ├── hot-products-2.jpg
+	│       │   │   │   ├── hot-products-3.jpg
+	│       │   │   │   ├── hot-products-4.jpg
+	│       │   │   │   └── hot-products-5.jpg
+	│       │   │   ├── loginvendor.jpg
+	│       │   │   ├── logo-2.png
+	│       │   │   ├── logo.png
+	│       │   │   ├── logoShop.svg
+	│       │   │   ├── main-slider
+	│       │   │   │   ├── clothes1.svg
+	│       │   │   │   ├── headphone1.png
+	│       │   │   │   └── landing.jpg
+	│       │   │   ├── mission.jpg
+	│       │   │   ├── modal-newsletter.png
+	│       │   │   ├── offer-products
+	│       │   │   │   ├── large-offer-products.png
+	│       │   │   │   ├── offer-products-1.png
+	│       │   │   │   ├── offer-products-2.png
+	│       │   │   │   ├── offer-products-3.png
+	│       │   │   │   ├── offer-products-4.jpg
+	│       │   │   │   ├── offer-products-5.jpg
+	│       │   │   │   ├── offer-products-6.jpg
+	│       │   │   │   └── offer-products-7.png
+	│       │   │   ├── overview
+	│       │   │   │   ├── clothes1.png
+	│       │   │   │   ├── clothes.png
+	│       │   │   │   ├── overview1.png
+	│       │   │   │   ├── overview2.png
+	│       │   │   │   ├── table.png
+	│       │   │   │   ├── tshirt.png
+	│       │   │   │   └── T-Shirt.png
+	│       │   │   ├── partner
+	│       │   │   │   ├── adidas.png
+	│       │   │   │   ├── adidas.svg
+	│       │   │   │   ├── apple.svg
+	│       │   │   │   ├── asus.svg
+	│       │   │   │   ├── dell.svg
+	│       │   │   │   ├── gucci.png
+	│       │   │   │   ├── gucci.svg
+	│       │   │   │   ├── huawei.svg
+	│       │   │   │   ├── luigi.svg
+	│       │   │   │   ├── msi.svg
+	│       │   │   │   ├── nike.svg
+	│       │   │   │   ├── partner-1.png
+	│       │   │   │   ├── partner-2.png
+	│       │   │   │   ├── partner-3.png
+	│       │   │   │   ├── partner-4.png
+	│       │   │   │   ├── partner-5.png
+	│       │   │   │   ├── rolex.svg
+	│       │   │   │   ├── samsung.svg
+	│       │   │   │   ├── sony.png
+	│       │   │   │   ├── sony.svg
+	│       │   │   │   ├── versage.png
+	│       │   │   │   ├── xiomi.svg
+	│       │   │   │   ├── Zara_Logo.svg
+	│       │   │   │   └── zara.svg
+	│       │   │   ├── portugal.png
+	│       │   │   ├── quick-view
+	│       │   │   │   ├── quick-view-1.jpg
+	│       │   │   │   ├── quick-view-2.jpg
+	│       │   │   │   └── quick-view-3.jpg
+	│       │   │   ├── shop
+	│       │   │   │   ├── shop-10.jpg
+	│       │   │   │   ├── shop-11.jpg
+	│       │   │   │   ├── shop-12.jpg
+	│       │   │   │   ├── shop-13.jpg
+	│       │   │   │   ├── shop-14.jpg
+	│       │   │   │   ├── shop-15.jpg
+	│       │   │   │   ├── shop-1.jpg
+	│       │   │   │   ├── shop-2.jpg
+	│       │   │   │   ├── shop-3.jpg
+	│       │   │   │   ├── shop-4.jpg
+	│       │   │   │   ├── shop-5.jpg
+	│       │   │   │   ├── shop-6.jpg
+	│       │   │   │   ├── shop-7.jpg
+	│       │   │   │   ├── shop-8.jpg
+	│       │   │   │   └── shop-9.jpg
+	│       │   │   ├── special-products
+	│       │   │   │   ├── freeze.png
+	│       │   │   │   ├── special-products-1.jpg
+	│       │   │   │   ├── special-products-2.jpg
+	│       │   │   │   ├── special-products-3.jpg
+	│       │   │   │   ├── special-products-bg-2.jpg
+	│       │   │   │   └── special-products-bg.jpg
+	│       │   │   ├── story.jpg
+	│       │   │   ├── team
+	│       │   │   │   ├── team-1.jpg
+	│       │   │   │   ├── team-2.jpg
+	│       │   │   │   ├── team-3.jpg
+	│       │   │   │   ├── team-4.jpg
+	│       │   │   │   ├── team-5.jpg
+	│       │   │   │   └── team-6.jpg
+	│       │   │   ├── terms-of-service.jpg
+	│       │   │   ├── track-order.jpg
+	│       │   │   └── vision.jpg
+	│       │   └── overview
+	│       │       ├── overview-1.png
+	│       │       └── overview-2.png
+	│       ├── components
+	│       │   ├── About
+	│       │   │   ├── ComingSoonArea.jsx
+	│       │   │   ├── CompareArea.jsx
+	│       │   │   ├── ContactArea.jsx
+	│       │   │   ├── Data.js
+	│       │   │   ├── ErrorArea.jsx
+	│       │   │   ├── FaqsArea.jsx
+	│       │   │   ├── Founders.jsx
+	│       │   │   ├── FunFactArea.jsx
+	│       │   │   ├── Map.jsx
+	│       │   │   ├── MissionArea.jsx
+	│       │   │   ├── PricingArea.jsx
+	│       │   │   ├── Privacy.jsx
+	│       │   │   ├── PrivacyPolicyArea.jsx
+	│       │   │   ├── SearchArea.jsx
+	│       │   │   ├── StoryArea.jsx
+	│       │   │   ├── TeamMembers.jsx
+	│       │   │   ├── Terms.jsx
+	│       │   │   ├── TermsOfServiceArea.jsx
+	│       │   │   ├── TrackingOrderArea.jsx
+	│       │   │   └── VisionArea.jsx
+	│       │   ├── Auth
+	│       │   │   ├── LoginArea.jsx
+	│       │   │   ├── loginarea.scss
+	│       │   │   ├── LoginArea.test.jsx
+	│       │   │   ├── LoginAreaVendor.jsx
+	│       │   │   ├── PasswordResetArea.jsx
+	│       │   │   └── RegisterArea.jsx
+	│       │   ├── Blog
+	│       │   │   ├── BlogArea.jsx
+	│       │   │   ├── BlogDetailsArea.jsx
+	│       │   │   ├── BlogLeftSidbarArea.jsx
+	│       │   │   ├── BlogListViewArea.jsx
+	│       │   │   └── __blogs__
+	│       │   │       └── Blogs.jsx
+	│       │   ├── Common
+	│       │   │   ├── BestSellers.jsx
+	│       │   │   ├── Collection.jsx
+	│       │   │   ├── LatestNews.jsx
+	│       │   │   ├── NewArrivals.jsx
+	│       │   │   ├── PageTitle.jsx
+	│       │   │   ├── PageTitleVendor.jsx
+	│       │   │   ├── Partner.jsx
+	│       │   │   ├── Preloader.jsx
+	│       │   │   ├── SpecialOffer.jsx
+	│       │   │   ├── SpecialProducts.jsx
+	│       │   │   ├── Support.jsx
+	│       │   │   ├── SupportTwo.jsx
+	│       │   │   └── Testimonial.jsx
+	│       │   ├── Ecommerce
+	│       │   │   ├── Chart
+	│       │   │   │   ├── Chart.jsx
+	│       │   │   │   └── chart.scss
+	│       │   │   ├── CustomersTable
+	│       │   │   │   ├── CustomersTable.jsx
+	│       │   │   │   ├── customerstable.scss
+	│       │   │   │   └── CustomerTableSource.jsx
+	│       │   │   ├── Featured
+	│       │   │   │   ├── Featured.jsx
+	│       │   │   │   └── featured.scss
+	│       │   │   ├── Navbar
+	│       │   │   │   ├── Navbar.jsx
+	│       │   │   │   └── navbar.scss
+	│       │   │   ├── OrdersTable
+	│       │   │   │   ├── OrdersTable.jsx
+	│       │   │   │   └── orderstable.scss
+	│       │   │   ├── ProductsTable
+	│       │   │   │   ├── Datatable1.test.jsx
+	│       │   │   │   ├── Datatable2.test.jsx
+	│       │   │   │   ├── Datatable3.test.jsx
+	│       │   │   │   ├── Datatable.test.jsx
+	│       │   │   │   ├── ProductsTable.jsx
+	│       │   │   │   ├── productstable.scss
+	│       │   │   │   ├── ProductsTableSource.jsx
+	│       │   │   │   └── UserColumns.test.jsx
+	│       │   │   ├── Sidebar
+	│       │   │   │   ├── Sidebar.jsx
+	│       │   │   │   ├── sidebar.scss
+	│       │   │   │   └── Sidebar.test.jsx
+	│       │   │   ├── Table
+	│       │   │   │   ├── Table.jsx
+	│       │   │   │   └── table.scss
+	│       │   │   ├── VendorsTable
+	│       │   │   │   ├── VendorsTable.jsx
+	│       │   │   │   ├── vendorstable.scss
+	│       │   │   │   └── VendorTableSource.jsx
+	│       │   │   └── Widget
+	│       │   │       ├── Widget.jsx
+	│       │   │       └── widget.scss
+	│       │   ├── Footer
+	│       │   │   └── Footer.jsx
+	│       │   ├── Home
+	│       │   │   ├── Home-four
+	│       │   │   │   ├── Banner.jsx
+	│       │   │   │   └── FeaturedArea.jsx
+	│       │   │   ├── Home-one
+	│       │   │   │   ├── Banner.jsx
+	│       │   │   │   ├── Overview.jsx
+	│       │   │   │   ├── SpecialOffer.jsx
+	│       │   │   │   └── SpecialProducts.jsx
+	│       │   │   ├── Home-three
+	│       │   │   │   ├── Banner.jsx
+	│       │   │   │   ├── FeaturedArea.jsx
+	│       │   │   │   ├── HotProductsArea.jsx
+	│       │   │   │   └── OfferProductsArea.jsx
+	│       │   │   └── Home-two
+	│       │   │       ├── Banner.jsx
+	│       │   │       ├── Category.jsx
+	│       │   │       └── FeaturedArea.jsx
+	│       │   ├── Layout
+	│       │   │   ├── MiddleHeader.css
+	│       │   │   ├── MiddleHeader.jsx
+	│       │   │   ├── Navbar.jsx
+	│       │   │   ├── TopHeader.css
+	│       │   │   └── TopHeader.jsx
+	│       │   ├── Products
+	│       │   │   ├── AddProductArea.jsx
+	│       │   │   ├── ProductsArea.jsx
+	│       │   │   ├── QuickView.css
+	│       │   │   ├── QuickView.jsx
+	│       │   │   └── validateinfo.js
+	│       │   ├── Shop
+	│       │   │   ├── CartArea.jsx
+	│       │   │   ├── CheckoutArea.jsx
+	│       │   │   ├── checkoutarea.test.jsx
+	│       │   │   ├── OrderArea.jsx
+	│       │   │   ├── __payment__
+	│       │   │   │   ├── component
+	│       │   │   │   │   ├── card
+	│       │   │   │   │   │   ├── card1.test.jsx
+	│       │   │   │   │   │   ├── Card.jsx
+	│       │   │   │   │   │   ├── card.scss
+	│       │   │   │   │   │   └── Card.test.jsx
+	│       │   │   │   │   └── form
+	│       │   │   │   │       └── Form.jsx
+	│       │   │   │   ├── Payment.jsx
+	│       │   │   │   ├── payment.scss
+	│       │   │   │   ├── payment.test.scss
+	│       │   │   │   └── State.jsx
+	│       │   │   ├── __products__
+	│       │   │   │   ├── orderarea.test.jsx
+	│       │   │   │   └── Products.jsx
+	│       │   │   ├── ProductsDetailsArea.jsx
+	│       │   │   ├── ProductsDetailsSidebarArea.jsx
+	│       │   │   ├── ShopArea.jsx
+	│       │   │   ├── ShopFullWidthArea.jsx
+	│       │   │   ├── ShopLeftSidebarArea.jsx
+	│       │   │   ├── ShopListViewArea.jsx
+	│       │   │   └── WishListArea.jsx
+	│       │   ├── ShowNavbar
+	│       │   │   └── ShowNavbar.jsx
+	│       │   ├── User
+	│       │   │   └── UserArea.jsx
+	│       │   └── Widgets
+	│       │       ├── Arrival.jsx
+	│       │       ├── BestSellerProducts.jsx
+	│       │       ├── Categories.jsx
+	│       │       ├── Continents.jsx
+	│       │       ├── PopularPosts.jsx
+	│       │       ├── PopularTags.jsx
+	│       │       ├── Price.jsx
+	│       │       └── Search.jsx
+	│       ├── contexts
+	│       │   ├── auth-context.js
+	│       │   ├── cart-context.js
+	│       │   ├── constants.js
+	│       │   ├── darkModeContext.js
+	│       │   └── darkModeReducer.js
+	│       ├── datatablesource.js
+	│       ├── formSource.js
+	│       ├── index.css
+	│       ├── index.js
+	│       ├── index.test.css
+	│       ├── pages
+	│       │   ├── About
+	│       │   │   ├── About.jsx
+	│       │   │   ├── ComingSoon.jsx
+	│       │   │   ├── Compare.jsx
+	│       │   │   ├── Contact.jsx
+	│       │   │   ├── Error-404.jsx
+	│       │   │   ├── Faqs.jsx
+	│       │   │   ├── MyAccount.jsx
+	│       │   │   ├── OurTeam.jsx
+	│       │   │   ├── PricingPlans.jsx
+	│       │   │   ├── PrivacyPolicy.jsx
+	│       │   │   ├── Search.jsx
+	│       │   │   ├── TermsOfService.jsx
+	│       │   │   └── TrackingOrder.jsx
+	│       │   ├── Authentications
+	│       │   │   ├── Login.jsx
+	│       │   │   ├── LoginVendor.jsx
+	│       │   │   ├── LoginVendor.test.jsx
+	│       │   │   ├── Register.jsx
+	│       │   │   └── ResetPassword.jsx
+	│       │   ├── Blog
+	│       │   │   ├── BlogDetailsa.jsx
+	│       │   │   ├── BlogDetailsb.jsx
+	│       │   │   ├── BlogDetailsc.jsx
+	│       │   │   ├── BlogDetails.jsx
+	│       │   │   ├── BlogFullWidth.jsx
+	│       │   │   ├── Blog.jsx
+	│       │   │   ├── BlogLeftSidebar.jsx
+	│       │   │   ├── BlogListView.jsx
+	│       │   │   └── BlogRightSidebar.jsx
+	│       │   ├── Ecommerce
+	│       │   │   ├── customers
+	│       │   │   │   ├── Customers.jsx
+	│       │   │   │   └── customers.scss
+	│       │   │   ├── dashboard
+	│       │   │   │   ├── Dashboard.jsx
+	│       │   │   │   └── dashboard.scss
+	│       │   │   ├── login
+	│       │   │   │   ├── Login.jsx
+	│       │   │   │   └── login.scss
+	│       │   │   ├── new
+	│       │   │   │   ├── New.jsx
+	│       │   │   │   └── new.scss
+	│       │   │   ├── products
+	│       │   │   │   ├── AddProducts.jsx
+	│       │   │   │   ├── addproducts.scss
+	│       │   │   │   ├── ListOfProducts.jsx
+	│       │   │   │   ├── listofproducts.scss
+	│       │   │   │   ├── productform1.test.jsx
+	│       │   │   │   ├── ProductForm.jsx
+	│       │   │   │   ├── productform.scss
+	│       │   │   │   ├── productform.test.js
+	│       │   │   │   ├── productform.test.jsx
+	│       │   │   │   └── test.jsx
+	│       │   │   ├── singlecustomer
+	│       │   │   │   ├── SingleCustomer.jsx
+	│       │   │   │   └── singlecustomer.scss
+	│       │   │   ├── singlevendor
+	│       │   │   │   ├── SingleVendor.jsx
+	│       │   │   │   └── singlevendor.scss
+	│       │   │   ├── vendororders
+	│       │   │   │   ├── VendorOrders.jsx
+	│       │   │   │   └── vendororders.scss
+	│       │   │   └── vendors
+	│       │   │       ├── Vendors.jsx
+	│       │   │       └── vendors.scss
+	│       │   ├── Home
+	│       │   │   ├── Home.css
+	│       │   │   ├── HomeFour.jsx
+	│       │   │   ├── Home.jsx
+	│       │   │   ├── HomeThree.jsx
+	│       │   │   └── HomeTwo.jsx
+	│       │   ├── Products
+	│       │   │   ├── AddProduct.jsx
+	│       │   │   └── Products.jsx
+	│       │   ├── Shop
+	│       │   │   ├── Cart.jsx
+	│       │   │   ├── Checkout.jsx
+	│       │   │   ├── Orders.jsx
+	│       │   │   ├── ProductsDetails.jsx
+	│       │   │   ├── ProductsDetailsSidebar.jsx
+	│       │   │   ├── ShopFullWidth.jsx
+	│       │   │   ├── Shop.jsx
+	│       │   │   ├── ShopLeftSidebar.jsx
+	│       │   │   ├── ShopListView.jsx
+	│       │   │   ├── ShopRightSidebar.jsx
+	│       │   │   └── WishList.jsx
+	│       │   └── User
+	│       │       └── User.jsx
+	│       ├── redux
+	│       │   ├── Order
+	│       │   │   ├── OrderAction.js
+	│       │   │   ├── OrderReducer.js
+	│       │   │   └── OrderTypes.js
+	│       │   ├── Product
+	│       │   │   ├── ProductAction.js
+	│       │   │   ├── ProductReducer.js
+	│       │   │   └── ProductTypes.js
+	│       │   ├── ResetPassword
+	│       │   │   ├── PasswordAction.js
+	│       │   │   ├── PasswordReducer.js
+	│       │   │   └── PasswordTypes.js
+	│       │   ├── RootReducer.js
+	│       │   └── Store.js
+	│       └── setupTests.js
+	├── cloudinary_preset_config.jpg
+	├── LICENSE
+	├── logo.svg
+	├── README.md
+	├── server
+	│   ├── index_deploy.js
+	│   ├── index.js
+	│   ├── package.json
+	│   ├── src
+	│   │   ├── config
+	│   │   │   └── db.js
+	│   │   ├── controllers
+	│   │   │   ├── order.js
+	│   │   │   ├── product.js
+	│   │   │   └── user.js
+	│   │   ├── helpers
+	│   │   │   └── genAccessToken.js
+	│   │   ├── middlewares
+	│   │   │   └── check-auth.js
+	│   │   ├── models
+	│   │   │   ├── Order.js
+	│   │   │   ├── Product.js
+	│   │   │   └── User.js
+	│   │   ├── routings
+	│   │   │   ├── order.js
+	│   │   │   ├── product.js
+	│   │   │   └── user.js
+	│   │   ├── server.js
+	│   │   └── utils
+	│   │       ├── cloudinary.js
+	│   │       └── validators.js
+	│   └── vercel.json
+	├── tree.txt
+	└── vercel.json
 
 ```
 
