@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="87.455109mm"
+   height="24.530092mm"
+   viewBox="0 0 87.455108 24.530092"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   sodipodi:docname="shop-font.svg"
+   inkscape:export-filename="shop-font.jpg"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1.5358305"
+     inkscape:cx="199.56629"
+     inkscape:cy="111.34041"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="1072"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="text236" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-32.804965,-69.377464)">
+    <g
+       aria-label="SHOP"
+       id="text236"
+       style="font-size:38.1px;font-family:'Linux Biolinum G';-inkscape-font-specification:'Linux Biolinum G, Normal';text-align:center;text-anchor:middle;fill:#1a1a1a;fill-rule:evenodd;stroke-width:1.585">
+      <g
+         aria-label="SHOP"
+         id="text650"
+         style="font-family:monospace;-inkscape-font-specification:'monospace, Normal';fill:#333333"
+         transform="matrix(0.99999984,0,0,0.85124157,-6.3741244,-34.113439)">
+        <path
+           d="m 55.419964,123.02749 v 3.81372 q -1.711523,-1.09761 -3.44165,-1.65571 -1.711523,-0.55811 -3.460254,-0.55811 -2.660302,0 -4.204394,1.24644 -1.544092,1.22783 -1.544092,3.33003 0,1.84175 1.00459,2.80913 1.023193,0.96738 3.795117,1.6185 l 1.971972,0.44649 q 3.906739,0.91157 5.692676,2.86494 1.785937,1.95337 1.785937,5.32061 0,3.96254 -2.455664,6.04614 -2.455663,2.08359 -7.143749,2.08359 -1.953369,0 -3.925342,-0.42788 -1.971972,-0.40928 -3.962549,-1.24643 v -3.99976 q 2.139405,1.35806 4.036963,1.99058 1.916162,0.63252 3.850928,0.63252 2.846338,0 4.427636,-1.26504 1.581299,-1.28365 1.581299,-3.57188 0,-2.08359 -1.097607,-3.1812 -1.079004,-1.09761 -3.776514,-1.69292 l -2.009179,-0.46509 q -3.869532,-0.87436 -5.618262,-2.6417 -1.74873,-1.76733 -1.74873,-4.74389 0,-3.72071 2.492871,-5.95313 2.511474,-2.25102 6.660058,-2.25102 1.599902,0 3.367236,0.37207 1.767334,0.35346 3.720703,1.079 z"
+           id="path652"
+           style="fill:#333333" />
+        <path
+           d="m 62.080022,122.07871 h 3.776513 v 11.38535 h 10.287744 v -11.38535 h 3.776514 v 27.77505 h -3.776514 v -13.2271 H 65.856535 v 13.2271 h -3.776513 z"
+           id="path654"
+           style="fill:#333333" />
+        <path
+           d="m 99.305655,135.99414 q 0,-6.12056 -1.265039,-8.74365 -1.246436,-2.6231 -4.111377,-2.6231 -2.846338,0 -4.111377,2.6231 -1.246436,2.62309 -1.246436,8.74365 0,6.10195 1.246436,8.72505 1.265039,2.6231 4.111377,2.6231 2.864941,0 4.111377,-2.6045 1.265039,-2.62309 1.265039,-8.74365 z m 3.925345,0 q 0,7.25537 -2.30684,10.82725 -2.288232,3.57187 -6.994921,3.57187 -4.70669,0 -6.994922,-3.55327 -2.288232,-3.55327 -2.288232,-10.84585 0,-7.27397 2.288232,-10.84585 2.306836,-3.57187 6.994922,-3.57187 4.706689,0 6.994921,3.57187 2.30684,3.57188 2.30684,10.84585 z"
+           id="path656"
+           style="fill:#333333" />
+        <path
+           d="m 112.83041,125.1669 v 10.43657 h 4.35322 q 2.60449,0 4.05557,-1.37666 1.46968,-1.37666 1.46968,-3.85093 0,-2.47427 -1.45108,-3.83232 -1.45107,-1.37666 -4.07417,-1.37666 z m -3.75791,-3.08819 h 8.11113 q 4.65088,0 7.05073,2.1208 2.39986,2.1022 2.39986,6.17637 0,4.11138 -2.39986,6.21357 -2.38125,2.1022 -7.05073,2.1022 h -4.35322 v 11.16211 h -3.75791 z"
+           id="path658"
+           style="fill:#333333" />
+      </g>
+    </g>
+  </g>
+</svg>
