@@ -129,6 +129,7 @@ E-commerce software that levarages the MERN stack. The live website is available
 
 ```sh
 └──Shop-Ecommerce
+	├── .gitignore
 	├── client
 	│   ├── package.json
 	│   ├── public
@@ -664,7 +665,6 @@ E-commerce software that levarages the MERN stack. The live website is available
 	│   │       ├── cloudinary.js
 	│   │       └── validators.js
 	│   └── vercel.json
-	├── tree.txt
 	└── vercel.json
 
 ```
