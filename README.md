@@ -1,7 +1,7 @@
 <div align="center">
 
-<h1 align="center">
-<a href="https://shop.josetolentino.site/" rel="nofollow" style="color: green; text-decoration: underline;text-decoration-style: dotted;">
+<h1 align="center" style="color:black">
+<a href="https://shop.josetolentino.site/" style="color:black">
 <img src="https://raw.githubusercontent.com/jatolentino/Shop-Ecommerce/main/logo.svg" width="100" />
 <br>SHOP
 </a>
