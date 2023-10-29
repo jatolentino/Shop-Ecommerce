@@ -1,6 +1,6 @@
 <div align="center" >
 
-<h1 align="center" style="color:#00FFFF">
+<h1 align="center">
 <img src="https://raw.githubusercontent.com/jatolentino/Shop-Ecommerce/main/logo.svg" width="100" />
 <br>SHOP
 </h1>
