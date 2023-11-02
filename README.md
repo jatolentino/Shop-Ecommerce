@@ -34,9 +34,14 @@ Comes with a mobile app compatible with Android & iOS devices
 <img src="https://img.shields.io/github/commit-activity/m/jatolentino/Shop-Ecommerce?style=flat-square&color=5D6D7E" alt="GitHub commit activity" />
 <img src="https://img.shields.io/github/languages/top/jatolentino/Shop-Ecommerce?style=flat-square&color=5D6D7E" alt="GitHub top language" />
 </div>
+
 ---
 
-https://github.com/jatolentino/Shop-Ecommerce/assets/61167951/1c848440-cbfb-4cc1-8823-18bfabe224d7
+
+
+https://github.com/jatolentino/Shop-Ecommerce/assets/61167951/ff91b9c3-8c37-4997-a04c-e0ed45e2e0b0
+
+
 
 ---
 
