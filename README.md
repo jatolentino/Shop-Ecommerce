@@ -1,16 +1,19 @@
 <div align="center">
 
 <h1 align="center">
-
-<a href="https://shop.josetolentino.site/" style="color: black"></a>
+<a href="https://shop.josetolentino.site/" style="color: black">
 <img src="https://raw.githubusercontent.com/jatolentino/Shop-Ecommerce/main/logo.svg" width="100" />
 <br>SHOP
 </a>
-
 </h1>
-<h3>For Vendors & Customers<br>
+
+<h3>
+<a href="https://shop.josetolentino.site/" style="color: black">
+For Vendors & Customers<br>
 Vendors/Admin Dashboard is available<br>
-Comes with a mobile app compatible with Android & iOS devices</h3>
+Comes with a mobile app compatible with Android & iOS devices
+</a>
+</h3>
 
 
 
