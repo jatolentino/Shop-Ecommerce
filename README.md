@@ -66,6 +66,7 @@ Comes with a mobile app compatible with Android & iOS devices
 ---
 
 
+![GiF-Website](https://github.com/jatolentino/Shop-Ecommerce/assets/61167951/31f0f6e3-0237-482c-9631-575f69885709)
 
 https://github.com/jatolentino/Shop-Ecommerce/assets/61167951/ff91b9c3-8c37-4997-a04c-e0ed45e2e0b0
 
