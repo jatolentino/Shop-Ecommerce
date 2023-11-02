@@ -85,18 +85,21 @@ E-commerce software that levarages the MERN stack. The live website is available
 
 ## 📦 Features
 
-| **Features**             | **User** | **Vendor** | **Admin** |
-|--------------------------|----------|------------|-----------|
+| **Features**             | **customer** | **Vendor** | **Admin** |
+|--------------------------|------------|------------|-----------|
 | Users Registration       |     ✔️    |      ✔️     |     ✔️     |
 | Users Login/Logout       |     ✔️    |      ✔️     |     ✔️     |
 | Dashboard                |     ✔️    |      ✔️     |     ✔️     |
-| SEO                      |     ✔️    |      ✔️     |     ✔️     |
 | Chat                     |     ✔️    |      ✔️     |     ✔️     |
 | Add/Edit Products        |     ❌    |      ✔️     |     ✔️     |
+| Search/filter products   |     ✔️    |      ✔️     |     ✔️     |
 | Add Users                |     ❌    |      ❌     |     ✔️     |
 | Credit/Debit card payment|     ✔️    |      ✔️     |     ✔️     |
 | PayPal payment           |     ✔️    |      ✔️     |     ✔️     |
 | Product tracking         |     ✔️    |      ✔️     |     ✔️     |
+| SEO                      |     ✔️    |      ✔️     |     ✔️     |
+| Blog                     |     ➖    |      ✔️     |     ✔️     |
+
 
 ---
 
@@ -885,11 +888,6 @@ cd Shop-Ecommerce
    npm install
    ```
 
-   1.3. Run the server:
-   ```sh
-   npm start
-   ```
-
    >You won't see any products listed, since you haven't configured the server yet :(.
    Let's do it in the following steps :D
 
@@ -907,49 +905,70 @@ cd Shop-Ecommerce
    npm install
    ```
 
-   2.3. Run the server:
-   ```sh
-   npm start
-   ```
+### 🤖 Running Locally
+
+1. For the server
+
+```sh
+cd ~/somewhere/server
+npm start
+```
+
+2. For the client
+
+```sh
+cd Shop-Ecommerce/client
+npm start
+```
 
    > Locally the `package.json` file is calling the `index.js` file, but when you want to deploy it, `index_deploy.js` while be used. Anyway, don't worry, there'll be more info about that in the next section.
 
    After you start both the client and the server, you won't still see any products listed because you haven't uploaded any. To upload a new product, please follow the video demo.
-   > Only in the case that you want to desperately see some products listed in your store as soon as possible and to verify that your previous config was successful, you could use my API. But please, do not delete or add any products, so that other devs can make their test with it. Go to `client/.env` and fill the `REACT_APP_SERVER_API` variable with my **API link**: `https://shopapi-lime.vercel.app/`
-   
+
+   > Only in the case that you desperately want to see some products listed in your store as soon as possible and to verify that your previous config was successful, you could use my API. But please, do not delete or add any products, so that other devs can make their test with it. Go to `client/.env` and fill the `REACT_APP_SERVER_API` variable with my **API link**: `https://shopapi-lime.vercel.app/`
 
 
 
-#### 🌐 Web Deploy
+### 🌐 Web Deploy
 
 > We use Vercel because it is easy to setup and free of cost! Aside that they use AWS services too.
 
-1. Clone the Shop-Ecommerce repository:
-```sh
-git clone https://github.com/jatolentino/Shop-Ecommerce
-```
+First of all, it's important to understand that we deploy 2 projects in Vercel, one refers to `Shop-Ecommerce/client` and the other is `Shop-Ecommerce/server` (or the location where you moved the `server` folder).
 
-2. Change to the project directory:
-```sh
-cd Shop-Ecommerce
-```
+#### 🖥️ Deploy the server
 
-3. Install the dependencies:
-```sh
-npm install
-```
+Once you are satisfied with the changes you've made in the project, and want to deploy it on Vercel, you can follow the steps below:
+
+- From the server folder, rename `index.js` to index.js.old
+- Rename `index_deploy.js` to `index.js`
+- Now upload the `server` folder to your github as a new repository, don't include `node_modules` or the `.env` file (they should be added to your `.gitignore`)
+- Add this project to vercel and create/fill your environment variables with the `.env` parameters
+- If your project was successfully hosted in Vercel, you should get a url to access it, copy this url, we are going to use in the next section.
+
+>To test if your server is working, append `/products` to the end of your url and paste it in your browser, you should see your API listing your products :D
 
 
-### 🤖 Running Shop-Ecommerce
+#### 👨‍💻 Deploy the client
 
-```sh
-node app.js
-```
+
+Follow the steps below:
+
+
+- Go to `Shop-Ecommerce/client` and paste the Vercel server url that you got in the previously step in `REACT_APP_SERVER_API` variable of `.env` file 
+- Now to upload your client project to Vercel, follow this advice:
+   - Upload the client folder to your github repo, don't include `node_modules` or `build ` directories or the `.env` file obsviously (they should be added to your `.gitignore`)
+   - Create a project in Vercel to add the client github repo previously added
+   - The trick to add the client projec to Vercel is this: After you choose the project you want to add in Vercel by its github repo name, in the Configure Section, you should edit the `Root Directory` choosing the option `client` so that Vercel, recognizes it as a `React` project!
+   - Proceed to fill out your environment variables with `Shop-Ecommerce/client/.env`
+   - Lastly you can click on deploy, and you will get your Vercel client website link
+
 
 ### 🧪 Tests
+
 ```sh
 npm test
 ```
+
 
 ---
 
