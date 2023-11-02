@@ -1,9 +1,10 @@
 <div align="center" >
-
+$${\color{red}
 <h1 align="center">
 <img src="https://raw.githubusercontent.com/jatolentino/Shop-Ecommerce/main/logo.svg" width="100" />
 <br>SHOP
 </h1>
+Red}$$
 
 <h3>
 For Vendors & Customers<br>
