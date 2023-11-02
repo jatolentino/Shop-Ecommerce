@@ -5,8 +5,8 @@ import "owl.carousel/dist/assets/owl.theme.default.css";
 import {Link} from 'react-router-dom';
 
 import headphone from "../../../assets/img/main-slider/headphone1.png";
-import monitor from "../../../assets/img/main-slider/monitor2.svg";
 import clothes from "../../../assets/img/main-slider/clothes1.svg";
+import landing from "../../../assets/img/main-slider/landing.jpg";
 
 
 
@@ -23,18 +23,19 @@ const Banner = () => {
         "<i class='flaticon-right-arrow' />",
       ]}
     >
-            <div className="main-slider-item">
+      <div className="main-slider-item">
         <div className="d-table">
           <div className="d-table-cell">
             <div className="container">
               <div className="row align-items-center">
+                
                 <div className="col-lg-6">
                   <div className="main-slider-content">
                     <b style={{fontWeight: "bold"}}>Big Sale Offer</b>
-                    <h1>Immersive monitors!</h1>
-                    <p>
-                    Combining the immersion of a headset with the comfort of a monitor!
-                    </p>
+                    <h1>Always our <br/>top brands!</h1>
+                    <h6>
+                    Clother, accessories, technology, and more!
+                    </h6>
 
                     <div className="slider-btn">
                     <Link to="/shop" className="default-btn">
@@ -45,9 +46,10 @@ const Banner = () => {
                     </div>
                   </div>
                 </div>
-                <div className="col-lg-6">
-                  <div className="main-slider-image">
-                    <img src={monitor} alt="image" />
+
+                <div className="col-lg-6" style={{ position:"absolute",marginLeft:"360px", marginTop:"50px", maxWidth: "1450px"}} >
+                  <div className="main-slider-image" >
+                    <img src={landing} alt="image" class="img-responsive" style={{height: "760px", objectFit: "cover"}} />
                   </div>
                 </div>
               </div>

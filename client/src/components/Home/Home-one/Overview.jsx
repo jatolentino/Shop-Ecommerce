@@ -6,7 +6,7 @@ import {Link} from 'react-router-dom';
 
 function Overview() {
   return (
-    <section className="overview-area pt-100 pb-20">
+    <section className="overview-area pt-100 pb-20 -mt-16">
       <div className="container">
         <div className="row">
           <div className="col-lg-6 col-md-6">

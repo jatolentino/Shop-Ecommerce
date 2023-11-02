@@ -2065,8 +2065,9 @@ h6:last-child {
 } */
 
 .main-slider-item {
-  background-color: #f2f2f2;
+  background-color: #f6f1ea; 
   /*background-image: linear-gradient(315deg, #ffcfdf 0%, #b0f3f1 74%); */
+  height: 800px;
 }
 .main-slider-item-box {
   background-image: url(assets/img/main-slider/slider-bg-1.jpg);
