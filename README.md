@@ -6,7 +6,7 @@
 <br>SHOP
 </a>
 </h1>
-
+<font color="red">This text is red!</font>
 <h3>
 <a href="https://shop.josetolentino.site/" rel="nofollow" style="color:black;">
 For Vendors & Customers<br>
