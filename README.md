@@ -19,6 +19,7 @@ Comes with a mobile app compatible with Android & iOS devices
 <img src="https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=flat-square&logo=JavaScript&logoColor=black" alt="JavaScript" />
 <img src="https://img.shields.io/badge/Nodejs-339933.svg?style=flat-square&logo=nodedotjs&logoColor=white" alt="NodeJS" />
 <img src="https://img.shields.io/badge/Express-000000.svg?style=flat-square&logo=Express&logoColor=white" alt="Express" />
+<img src="https://img.shields.io/badge/MongoDB-4ea94b.svg?style=flat-square&logo=MongoDB&logoColor=white" alt="Mongodb" />
 <img src="https://img.shields.io/badge/Sass-CC6699.svg?style=flat-square&logo=Sass&logoColor=white" alt="Bootstrap" />
 <img src="https://img.shields.io/badge/Bootstrap-8511FA.svg?style=flat-square&logo=Bootstrap&logoColor=white" alt="Sass" />
 <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC.svg?style=flat-square&logo=tailwind-css&logoColor=white" alt="Tailwind" />
@@ -41,6 +42,17 @@ Comes with a mobile app compatible with Android & iOS devices
 <img src="https://img.shields.io/badge/GIT-F05033.svg?style=flat-square&logo=git&logoColor=white" alt="GIT" />
 
 </p>
+
+<p>
+
+![GitHub repo size](https://img.shields.io/github/repo-size/jatolentino/Shop-Ecommerce)
+![GitHub language count](https://img.shields.io/github/languages/count/jatolentino/Shop-Ecommerce?color=success&logo=CodersRank&logoColor=%23FFFFFF)
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+![rating](https://img.shields.io/badge/rating-★★★★★-yellow)
+![uptime](https://img.shields.io/badge/uptime-99.99%25-green)
+
+</p>
+
 <img src="https://img.shields.io/github/license/jatolentino/Shop-Ecommerce?style=flat-square&color=5D6D7E" alt="GitHub license" />
 <img src="https://img.shields.io/github/last-commit/jatolentino/Shop-Ecommerce?style=flat-square&color=5D6D7E" alt="git-last-commit" />
 <img src="https://img.shields.io/github/commit-activity/m/jatolentino/Shop-Ecommerce?style=flat-square&color=5D6D7E" alt="GitHub commit activity" />
