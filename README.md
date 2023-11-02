@@ -1,10 +1,10 @@
 <div align="center" >
-$${\color{red}
-<h1 align="center">
+
+<h1 align="center" style="color:#00FFFF">
 <img src="https://raw.githubusercontent.com/jatolentino/Shop-Ecommerce/main/logo.svg" width="100" />
 <br>SHOP
 </h1>
-Red}$$
+
 
 <h3>
 For Vendors & Customers<br>
