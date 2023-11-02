@@ -30,7 +30,7 @@ Comes with a mobile app compatible with Android & iOS devices</h3>
 </div>
 
 ---
-
+https://github.com/jatolentino/Shop-Ecommerce/assets/61167951/1c848440-cbfb-4cc1-8823-18bfabe224d7
 ---
 
 ## 📖 Table of Contents
