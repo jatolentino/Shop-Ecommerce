@@ -1,4 +1,4 @@
-<div align="center">
+<div align="center" style="color:black">
 
 <h1 align="center" style="color:black">
 <a href="https://shop.josetolentino.site/" style="color:black">
@@ -6,7 +6,7 @@
 <br>SHOP
 </a>
 </h1>
-<p style="color:blue">Make this text blue.</p>
+
 <h3>
 <a href="https://shop.josetolentino.site/" rel="nofollow" style="color:black;">
 For Vendors & Customers<br>
@@ -37,7 +37,7 @@ Comes with a mobile app compatible with Android & iOS devices
 <img src="https://img.shields.io/github/commit-activity/m/jatolentino/Shop-Ecommerce?style=flat-square&color=5D6D7E" alt="GitHub commit activity" />
 <img src="https://img.shields.io/github/languages/top/jatolentino/Shop-Ecommerce?style=flat-square&color=5D6D7E" alt="GitHub top language" />
 </div>
-
+<p style="color:blue">Make this text blue.</p>
 ---
 
 https://github.com/jatolentino/Shop-Ecommerce/assets/61167951/1c848440-cbfb-4cc1-8823-18bfabe224d7
