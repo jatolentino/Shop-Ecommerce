@@ -85,20 +85,28 @@ E-commerce software that levarages the MERN stack. The live website is available
 
 ## 📦 Features
 
-| **Features**             | **customer** | **Vendor** | **Admin** |
-|--------------------------|------------|------------|-----------|
-| Users Registration       |     ✔️    |      ✔️     |     ✔️     |
-| Users Login/Logout       |     ✔️    |      ✔️     |     ✔️     |
-| Dashboard                |     ✔️    |      ✔️     |     ✔️     |
-| Chat                     |     ✔️    |      ✔️     |     ✔️     |
-| Add/Edit Products        |     ❌    |      ✔️     |     ✔️     |
-| Search/filter products   |     ✔️    |      ✔️     |     ✔️     |
-| Add Users                |     ❌    |      ❌     |     ✔️     |
-| Credit/Debit card payment|     ✔️    |      ✔️     |     ✔️     |
-| PayPal payment           |     ✔️    |      ✔️     |     ✔️     |
-| Product tracking         |     ✔️    |      ✔️     |     ✔️     |
-| SEO                      |     ✔️    |      ✔️     |     ✔️     |
-| Blog                     |     ➖    |      ✔️     |     ✔️     |
+| **Features**             | **Customer** | **Vendor** | **Admin** | **Website** |
+|--------------------------|-----------|--------------|------------|-------------|
+| Users Registration       |     ✔️    |      ✔️     |     ✔️     |     ✔️     |
+| Users Login/Logout       |     ✔️    |      ✔️     |     ✔️     |     ✔️     |
+| Reset Password           |     ✔️    |      ✔️     |     ✔️     |     ✔️     |
+| Dashboard                |     ✔️    |      ✔️     |     ✔️     |    ✔️      |
+| Chat                     |     ✔️    |      ✔️     |     ✔️     |    ✔️      |
+| Add/Edit Products        |     ❌    |      ✔️     |     ✔️     |    ✔️      |
+| Add Products to your cart|     ✔️    |      ✔️     |     ➖     |    ✔️      |
+| Add Products to your favorites|  ✔️  |    ✔️       |     ➖     |    ✔️      |
+| Search/filter products   |     ✔️    |      ✔️     |     ✔️     |    ✔️      |
+| Credit/Debit card payment|     ✔️    |      ✔️     |     ✔️     |    ✔️      |
+| PayPal payment           |     ✔️    |      ✔️     |     ✔️     |    ✔️      |
+| Product tracking         |     ✔️    |      ✔️     |     ✔️     |    ✔️      |
+| Rating Products          |     ✔️    |      ✔️     |     ✔️     |    ✔️      |
+| Add Users                |     ❌    |      ❌     |     ✔️     |     ✔️     |
+| SEO                      |     ➖    |      ➖     |     ✔️     |    ✔️      |
+| Blog                     |     ➖    |      ➖     |     ✔️     |    ✔️      |
+| Terms & Condition        |     ➖    |      ➖     |     ✔️     |    ✔️      |
+| Privacy & Policy         |     ➖    |      ➖     |     ✔️     |    ✔️      |
+| Newsletter Subscription  |     ➖    |      ➖     |     ✔️     |    ✔️      |
+| FAQs                     |     ➖    |      ➖     |     ✔️     |    ✔️      |
 
 
 ---
