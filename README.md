@@ -19,15 +19,27 @@ Comes with a mobile app compatible with Android & iOS devices
 <img src="https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=flat-square&logo=JavaScript&logoColor=black" alt="JavaScript" />
 <img src="https://img.shields.io/badge/Nodejs-339933.svg?style=flat-square&logo=nodedotjs&logoColor=white" alt="NodeJS" />
 <img src="https://img.shields.io/badge/Express-000000.svg?style=flat-square&logo=Express&logoColor=white" alt="Express" />
-<img src="https://img.shields.io/badge/Sass-CC6699.svg?style=flat-square&logo=Sass&logoColor=white" alt="Sass" />
+<img src="https://img.shields.io/badge/Sass-CC6699.svg?style=flat-square&logo=Sass&logoColor=white" alt="Bootstrap" />
+<img src="https://img.shields.io/badge/Bootstrap-8511FA.svg?style=flat-square&logo=Bootstrap&logoColor=white" alt="Sass" />
 <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC.svg?style=flat-square&logo=tailwind-css&logoColor=white" alt="Tailwind" />
 <img src="https://img.shields.io/badge/npm-CB3837.svg?style=flat-square&logo=npm&logoColor=white" alt="Npm" />
 
-<img src="https://img.shields.io/badge/Redux-764ABC.svg?style=flat-square&logo=Redux&logoColor=white" alt="Redux" />
-<img src="https://img.shields.io/badge/Vercel-000000.svg?style=flat-square&logo=vercel&logoColor=white" alt="React" />
-<img src="https://img.shields.io/badge/Axios-5A29E4.svg?style=flat-square&logo=Axios&logoColor=white" alt="Axios" />
+<img src="https://img.shields.io/badge/Redux-593d88.svg?style=flat-square&logo=Redux&logoColor=white" alt="Redux" />
+<img src="https://img.shields.io/badge/Vercel-000000.svg?style=flat-square&logo=vercel&logoColor=white" alt="Vercel" />
+<img src="https://img.shields.io/badge/AWS-FE9800.svg?style=flat-square&logo=amazon-aws&logoColor=white" alt="AWS" />
+<img src="https://img.shields.io/badge/Cloudinary-3448C5.svg?style=flat-square&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACUAAAAYCAYAAAB9ejRwAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAAvZJREFUSIm9ll2IVVUUgL85aoqTpSnqjJngDxKFYARCKJlUBr3Y9GSCLxFmL5r6UEgQkpCivuiDCJOG9vOmJoophRKGlYpgFpHVRIKmlv/joNnXw1kXt9dzb3OuFxds9t5r7bXOt9c++6dFpQEZCnQAM4EngGHAAOAc0AXsB7YDBxsJjlqmDFZXqVftnRxSny35DVpKZOppYAvwcPSvA3uBA8DvwI3I4OORwfGJ7yZgPtDTzEx1qD0x+x71fXVonfEt6vPqd0nWDqgP9uZ7vQF6KgH6VZ1cYin6qssSsL1qv7uFalW7ImCXOrrs/xFlQQK2rFGoYeqr6hcR6Lr6ZINAldIZsXrU8WWgWtU1are3y9q7BMJ85/4V8db1FmqM+lMCck3dpa5QhzcBCvXdiH1RfUUdVQ9qiPpLONxUV4auGSBpmVi1AjfVbeqEIqiPYtAN9aU66c+aAPapekS9lMB1q7NSqEnqv2F8u0ag4eox9YMmgaH2V+eoJ5OETK9ArQ7lBXVggfNI9YdkVhtrgLU1CNem/hix/1AHYH4/qW4ocBihHvdO+cT8YKyMe1O9os5oEOyxyJTq6xkwIW6c7wtuoTbgVIG+K+45gMXAGqAV+Ax4pmB8e9hryXHyVwVABwnhnBqzWF+QqRfCtqTA1q0+l/iPVn9Wv1IH1cnWG+F/OiN/A0H+JiojfRPfVP4ELkX7EWAf+YthKrATuL9GvAtRD8mAo9GZURLqH2Brgf4i8E0AfQmMTWzTgM+BBwr8xkV9JgN2ROdFYGJJsHpyH3C4QL8PGFily4DZ0f46AzYDZ4E+wIcFDo3KCeC3Av0x4HSV7i3g0Wh3ZsBlYGEopgC7yXfdvZBBwGpgefS3A3uy6HwMvBftacDSewTVCSyK9rfAXMjXsiLvAK8BV6sc/y4INirqbu58d48k/xX+zxegH/mGWQtMp7JrC86LtuQcQm1XD3rrftT8OmgP+zz1fNVZtTxsD6n7zV8DFTmjjgv7y+rYaob/ADGy1Snvrfw6AAAAAElFTkSuQmCC&logoColor=white" alt="Cloudinary" />
+<img src="https://img.shields.io/badge/API-111c24.svg?style=flat-square&logo=data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjwhLS0gQ3JlYXRlZCB3aXRoIElua3NjYXBlIChodHRwOi8vd3d3Lmlua3NjYXBlLm9yZy8pIC0tPgoKPHN2ZwogICB3aWR0aD0iNjEuMzQ2MjM3bW0iCiAgIGhlaWdodD0iNjEuMzQ2MjMzbW0iCiAgIHZpZXdCb3g9IjAgMCA2MS4zNDYyMzcgNjEuMzQ2MjMzIgogICB2ZXJzaW9uPSIxLjEiCiAgIGlkPSJzdmc4NTY0NSIKICAgaW5rc2NhcGU6dmVyc2lvbj0iMS4yLjIgKDczMmEwMWRhNjMsIDIwMjItMTItMDkpIgogICBzb2RpcG9kaTpkb2NuYW1lPSJhcGkuc3ZnIgogICB4bWxuczppbmtzY2FwZT0iaHR0cDovL3d3dy5pbmtzY2FwZS5vcmcvbmFtZXNwYWNlcy9pbmtzY2FwZSIKICAgeG1sbnM6c29kaXBvZGk9Imh0dHA6Ly9zb2RpcG9kaS5zb3VyY2Vmb3JnZS5uZXQvRFREL3NvZGlwb2RpLTAuZHRkIgogICB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciCiAgIHhtbG5zOnN2Zz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxzb2RpcG9kaTpuYW1lZHZpZXcKICAgICBpZD0ibmFtZWR2aWV3ODU2NDciCiAgICAgcGFnZWNvbG9yPSIjZmZmZmZmIgogICAgIGJvcmRlcmNvbG9yPSIjMDAwMDAwIgogICAgIGJvcmRlcm9wYWNpdHk9IjAuMjUiCiAgICAgaW5rc2NhcGU6c2hvd3BhZ2VzaGFkb3c9IjIiCiAgICAgaW5rc2NhcGU6cGFnZW9wYWNpdHk9IjAuMCIKICAgICBpbmtzY2FwZTpwYWdlY2hlY2tlcmJvYXJkPSIwIgogICAgIGlua3NjYXBlOmRlc2tjb2xvcj0iI2QxZDFkMSIKICAgICBpbmtzY2FwZTpkb2N1bWVudC11bml0cz0ibW0iCiAgICAgc2hvd2dyaWQ9ImZhbHNlIgogICAgIGlua3NjYXBlOnpvb209IjAuNTQyOTk4MDkiCiAgICAgaW5rc2NhcGU6Y3g9IjEyMC42MjY1OCIKICAgICBpbmtzY2FwZTpjeT0iLTkzLjkyMjk4MiIKICAgICBpbmtzY2FwZTp3aW5kb3ctd2lkdGg9IjE5MjAiCiAgICAgaW5rc2NhcGU6d2luZG93LWhlaWdodD0iMTAxNyIKICAgICBpbmtzY2FwZTp3aW5kb3cteD0iLTgiCiAgICAgaW5rc2NhcGU6d2luZG93LXk9IjEwNzIiCiAgICAgaW5rc2NhcGU6d2luZG93LW1heGltaXplZD0iMSIKICAgICBpbmtzY2FwZTpjdXJyZW50LWxheWVyPSJsYXllcjEiIC8+CiAgPGRlZnMKICAgICBpZD0iZGVmczg1NjQyIiAvPgogIDxnCiAgICAgaW5rc2NhcGU6bGFiZWw9IkxheWVyIDEiCiAgICAgaW5rc2NhcGU6Z3JvdXBtb2RlPSJsYXllciIKICAgICBpZD0ibGF5ZXIxIgogICAgIHRyYW5zZm9ybT0idHJhbnNsYXRlKC03NC4zMjY4ODIsLTExNy44MjY4OCkiPgogICAgPGVsbGlwc2UKICAgICAgIHN0eWxlPSJvcGFjaXR5OjE7ZmlsbDojZmZmZmZmO2ZpbGwtb3BhY2l0eToxO2ZpbGwtcnVsZTpldmVub2RkO3N0cm9rZTojZmZmZmZmO3N0cm9rZS13aWR0aDowLjEyNjQxMSIKICAgICAgIGlkPSJwYXRoODYxODEiCiAgICAgICBjeD0iMTA1IgogICAgICAgY3k9IjE0OC41IgogICAgICAgcng9IjMwLjYwOTkxMyIKICAgICAgIHJ5PSIzMC42MDk5MTEiIC8+CiAgICA8dGV4dAogICAgICAgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIKICAgICAgIHN0eWxlPSJmb250LXNpemU6MzguMXB4O2ZvbnQtZmFtaWx5OidMaW51eCBCaW9saW51bSBHJzstaW5rc2NhcGUtZm9udC1zcGVjaWZpY2F0aW9uOidMaW51eCBCaW9saW51bSBHLCBOb3JtYWwnO3RleHQtYWxpZ246Y2VudGVyO3RleHQtYW5jaG9yOm1pZGRsZTtvcGFjaXR5OjE7ZmlsbDojMTExYzI0O2ZpbGwtb3BhY2l0eToxO2ZpbGwtcnVsZTpldmVub2RkO3N0cm9rZTojMTExYzI0O3N0cm9rZS13aWR0aDoxLjU4NTtzdHJva2UtZGFzaGFycmF5Om5vbmUiCiAgICAgICB4PSIxMDUuMDc5MDYiCiAgICAgICB5PSIxNTcuOTEzMzgiCiAgICAgICBpZD0idGV4dDg2NjAwIj48dHNwYW4KICAgICAgICAgc29kaXBvZGk6cm9sZT0ibGluZSIKICAgICAgICAgaWQ9InRzcGFuODY1OTgiCiAgICAgICAgIHN0eWxlPSJmb250LXNpemU6MzguMXB4O2ZpbGw6IzExMWMyNDtzdHJva2U6IzExMWMyNDtzdHJva2Utd2lkdGg6MS41ODU7c3Ryb2tlLWRhc2hhcnJheTpub25lIgogICAgICAgICB4PSIxMDUuMDc5MDYiCiAgICAgICAgIHk9IjE1Ny45MTMzOCI+eyB9PC90c3Bhbj48L3RleHQ+CiAgPC9nPgo8L3N2Zz4K&logoColor=white" alt="API" />
+<img src="https://img.shields.io/badge/Axios-671ddf.svg?style=flat-square&logo=Axios&logoColor=white" alt="Axios" />
 <img src="https://img.shields.io/badge/JSON-5E5C5C.svg?style=flat-square&logo=JSON&logoColor=white" alt="JSON" />
-<img src="https://img.shields.io/badge/JWT-000000.svg?style=flat-square&logo=JSON&logoColor=white" alt="JSON" />
+<img src="https://img.shields.io/badge/JWT-000000.svg?style=flat-square&logo=JSON&logoColor=white" alt="JWT" />
+<img src="https://img.shields.io/badge/Figma-F24E1E.svg?style=flat-square&logo=figma&logoColor=white" alt="Figma" />
+<img src="https://img.shields.io/badge/Inkscape-000000.svg?style=flat-square&logo=inkscape&logoColor=white" alt="Inkscape" />
+<img src="https://img.shields.io/badge/Gimp-657D8B.svg?style=flat-square&logo=gimp&logoColor=white" alt="Gimp" />
+<img src="https://img.shields.io/badge/Adobe%20After%20Effects-393665.svg?style=flat-square&logo=Adobe%20After%20Effects&logoColor=white" alt="Adobe-after-effects" />
+<img src="https://img.shields.io/badge/VS%20Code-0078d7.svg?style=flat-square&logo=visual-studio-code&logoColor=white" alt="VSCODE" />
+<img src="https://img.shields.io/badge/Github-121011.svg?style=flat-square&logo=github&logoColor=white" alt="Github" />
+<img src="https://img.shields.io/badge/GIT-F05033.svg?style=flat-square&logo=git&logoColor=white" alt="GIT" />
+
 </p>
 <img src="https://img.shields.io/github/license/jatolentino/Shop-Ecommerce?style=flat-square&color=5D6D7E" alt="GitHub license" />
 <img src="https://img.shields.io/github/last-commit/jatolentino/Shop-Ecommerce?style=flat-square&color=5D6D7E" alt="git-last-commit" />
@@ -67,13 +79,24 @@ https://github.com/jatolentino/Shop-Ecommerce/assets/61167951/ff91b9c3-8c37-4997
 
 ## 📍 Overview
 
-HTTPStatus Exception: 429
+E-commerce software that levarages the MERN stack. The live website is available at [https://shop.josetolentino.site/](https://shop.josetolentino.site/) and the mobile application project can be found at [https://github.com/jatolentino/Shop-Ecommerce-app](https://github.com/jatolentino/Shop-Ecommerce-app)
 
 ---
 
 ## 📦 Features
 
-HTTPStatus Exception: 429
+| **Features**             | **User** | **Vendor** | **Admin** |
+|--------------------------|----------|------------|-----------|
+| Users Registration       |     ✔️    |      ✔️     |     ✔️     |
+| Users Login/Logout       |     ✔️    |      ✔️     |     ✔️     |
+| Dashboard                |     ✔️    |      ✔️     |     ✔️     |
+| SEO                      |     ✔️    |      ✔️     |     ✔️     |
+| Chat                     |     ✔️    |      ✔️     |     ✔️     |
+| Add/Edit Products        |     ❌    |      ✔️     |     ✔️     |
+| Add Users                |     ❌    |      ❌     |     ✔️     |
+| Credit/Debit card payment|     ✔️    |      ✔️     |     ✔️     |
+| PayPal payment           |     ✔️    |      ✔️     |     ✔️     |
+| Product tracking         |     ✔️    |      ✔️     |     ✔️     |
 
 ---
 
