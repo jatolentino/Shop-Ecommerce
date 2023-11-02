@@ -50,13 +50,14 @@ Comes with a mobile app compatible with Android & iOS devices
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 ![rating](https://img.shields.io/badge/rating-★★★★★-yellow)
 ![uptime](https://img.shields.io/badge/uptime-99.99%25-green)
-
-</p>
-
 <img src="https://img.shields.io/github/license/jatolentino/Shop-Ecommerce?style=flat-square&color=5D6D7E" alt="GitHub license" />
 <img src="https://img.shields.io/github/last-commit/jatolentino/Shop-Ecommerce?style=flat-square&color=5D6D7E" alt="git-last-commit" />
 <img src="https://img.shields.io/github/commit-activity/m/jatolentino/Shop-Ecommerce?style=flat-square&color=5D6D7E" alt="GitHub commit activity" />
 <img src="https://img.shields.io/github/languages/top/jatolentino/Shop-Ecommerce?style=flat-square&color=5D6D7E" alt="GitHub top language" />
+
+</p>
+
+
 </div>
 
 ---
