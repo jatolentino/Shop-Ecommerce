@@ -49,7 +49,7 @@ Comes with a mobile app compatible with Android & iOS devices
 ![GitHub language count](https://img.shields.io/github/languages/count/jatolentino/Shop-Ecommerce?color=success&logo=CodersRank&logoColor=%23FFFFFF)
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 ![rating](https://img.shields.io/badge/rating-★★★★★-yellow)
-![uptime](https://img.shields.io/badge/uptime-99.99%25-green)
+![uptime](https://img.shields.io/badge/uptime-99.99%25-green) \
 <img src="https://img.shields.io/github/license/jatolentino/Shop-Ecommerce?style=flat-square&color=5D6D7E" alt="GitHub license" />
 <img src="https://img.shields.io/github/last-commit/jatolentino/Shop-Ecommerce?style=flat-square&color=5D6D7E" alt="git-last-commit" />
 <img src="https://img.shields.io/github/commit-activity/m/jatolentino/Shop-Ecommerce?style=flat-square&color=5D6D7E" alt="GitHub commit activity" />
