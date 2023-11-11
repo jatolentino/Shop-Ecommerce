@@ -65,8 +65,13 @@ Comes with a mobile app compatible with Android & iOS devices
 
 ---
 
+<div align="center">
 
-![GiF-Website](https://github.com/jatolentino/Shop-Ecommerce/assets/61167951/31f0f6e3-0237-482c-9631-575f69885709)
+
+![GiF-SHOP](https://github.com/jatolentino/Shop-Ecommerce/assets/61167951/45315fbe-67d6-4cd1-80e4-4a1a753df3cb)
+
+
+</div>
 
 https://github.com/jatolentino/Shop-Ecommerce/assets/61167951/ff91b9c3-8c37-4997-a04c-e0ed45e2e0b0
 
